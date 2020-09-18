@@ -115,6 +115,13 @@ See 'mqadmin help <command>' for more information on a specific command.
 
 
 
+##  查看状态
+
+```
+./mqadmin  statsAll
+```
+
+
 ##  手动创建TOPIC
 
 
