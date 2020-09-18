@@ -28,3 +28,17 @@ https://hub.docker.com/u/apacherocketmq
 https://hub.docker.com/repository/docker/ibackchina2018/rocketmq/general
 
 
+
+**搭建NameSrv &  Broker**
+
+```
+docker run -d -v `pwd`/data/namesrv/logs:/home/rocketmq/logs --name rmqnamesrv -p 9876:9876 ibackchina2018/rocketmq:4.5.0-alpine sh mqnamesrv
+
+```
+
+
+
+```
+docker run -d -v `pwd`/data/broker/logs:/home/rocketmq/logs -v `pwd`/data/broker/store:/home/rocketmq/store --name rmqbroker --link rmqnamesrv:namesrv -e "NAMESRV_ADDR=namesrv:9876" -p 10909:10909 -p 10911:10911 -p 10912:10912 ibackchina2018/rocketmq:4.5.0-alpine sh mqbroker
+```
+
