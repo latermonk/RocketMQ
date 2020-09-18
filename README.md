@@ -28,13 +28,3 @@ https://hub.docker.com/u/apacherocketmq
 https://hub.docker.com/repository/docker/ibackchina2018/rocketmq/general
 
 
-###  producer
-```
-wget 
- https://raw.githubusercontent.com/latermonk/RocketMQ/master/Python/producer.py
-```
-###  consumer
-```
-wget https://raw.githubusercontent.com/latermonk/RocketMQ/master/Python/consumer.py
-```
-

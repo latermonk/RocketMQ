@@ -13,6 +13,21 @@ pip install rocketmq-client-python
 ```
 ##  Samples test
 
+
+
+
+###  producer
+```
+wget 
+ https://raw.githubusercontent.com/latermonk/RocketMQ/master/Python/producer.py
+```
+###  consumer
+```
+wget https://raw.githubusercontent.com/latermonk/RocketMQ/master/Python/consumer.py
+```
+
+
+**Code Sample**
 ### Producer
 
 ```
