@@ -17,5 +17,12 @@ https://github.com/apache/rocketmq-docker
 https://github.com/StyleTang/rocketmq-console-ng
 
 
+#  环境搭建DOCKER
+
+
+##  官方镜像
+https://hub.docker.com/u/apacherocketmq
+
+
 
 
