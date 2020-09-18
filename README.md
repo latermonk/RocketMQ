@@ -24,5 +24,17 @@ https://github.com/StyleTang/rocketmq-console-ng
 https://hub.docker.com/u/apacherocketmq
 
 
+##  自定义镜像
+https://hub.docker.com/repository/docker/ibackchina2018/rocketmq/general
 
+
+###  producer
+```
+wget 
+ https://raw.githubusercontent.com/latermonk/RocketMQ/master/Python/producer.py
+```
+###  consumer
+```
+wget https://raw.githubusercontent.com/latermonk/RocketMQ/master/Python/consumer.py
+```
 
